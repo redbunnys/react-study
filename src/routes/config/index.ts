@@ -20,16 +20,18 @@ const routeDefinitions: RouteObject[] = [
         path: "/about",
         element: createElement(About)
       },
-      {
-        path: "/login",
-        element: createElement(Login)
-      },
+
       {
         path: "/*",
         element: createElement(NotFound)
-      } 
+      }
     ],
-  }
+  },
+  {
+    path: "/login",
+    element: createElement(Login)
+  },
+
 
 
 ];

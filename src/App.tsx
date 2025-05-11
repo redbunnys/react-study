@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-        <React.Fragment>{element}</React.Fragment>;
+        <React.Fragment>{element}</React.Fragment>
     </>
   )
 }
